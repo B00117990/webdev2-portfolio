@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+
+#header {
+	
+	text-align: center ;
+	background-color: palevioletred ;
+	border-radius: 15px 30px 30px 15px;
+	padding: 15px ;
+	width: 200px ;
+	color: white ;
+	float: right ;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+	
+
+}
+
+#footer {
+	
+	position: fixed ; 
+	background-color: palevioletred ;
+	border-radius: 20px 35px 35px 20px;
+	margin: auto ;
+	display: block ;
+	bottom: 1200px ;
+	bottom: 0% ;
+	
+}
+
+#name {
+	
+	position: absolute ;
+	font-size: large ;
+	color: white;
+	text-align: center ;
+	display: block;
+	margin: auto; 
+	top: 0%;
+	background-color: palevioletred ;
+	border-radius: 15px 30px 30px 15px;
+	padding: 15px ;
+	width: 200px ;
+	float: right ;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+	
+		
+}
+
+.container {
+	
+	background-color: papayawhip ;
+	background-image: linear-gradient(to bottom right, papayawhip, #F7A757) ;
+	width 1500px ;
+	height: 1800px ;
+	
+}
+	
+
+.nav {
+	
+	position: absolute ;
+	display: block ;
+	background-color: skyblue ;
+	float: left ;
+	border-radius: 15px 30px 30px 15px;
+	top: 10% ;
+	
+
+	
+}
+
+.nav a {
+	color: white ; 
+	text-decoration: none ;
+	text-align: center ;
+	padding: 10px;
+	font-size: 20px ;
+}
+
+.nav a.active {
+	
+	background-color: darkblue ; 
+	padding: 10px;
+	font-size: 20px ;
+	border-radius: 15px 30px 30px 15px;
+	display: inline-block ;
+	
+}
+
+.nav a:hover {
+	display: inline-block ;
+	color: black;
+	background-color: dodgerblue ;
+	border-radius: 15px 30px 30px 15px;
+}
+
+.dropdown {
+	
+	display: inline-block ;
+}
+
+.dropdown-content {
+	
+	display: none ;
+	position: absolute ;
+	background-color: royalblue ;
+	padding: 15px ;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block ;
+	background-color: darkblue ;
+	
+}
+
+main {
+	
+	position: absolute ;
+	float: left ;
+	background-color: pink ;
+	border-radius: 15px 30px 30px 15px;
+	text-align: center ;
+	margin: auto ;
+	top: 27% ;
+}
+
+form {
+	
+	display: inline-block ;
+	background-color: darkseagreen ;
+	border-radius: 15px 20px 20px 15px;
+	padding: 10px ;
+	width: 600px ;
+	right: 50 % ;
+	text-align: center ;
+
+}
+
+ul {
+	list-style: none ;
+	text-align: center ;
+	margin: auto ;
+}
+
+.layout {
+	
+	display: grid ;
+	position: absolute ;
+	margin: auto ;
+	padding: 100px ;
+	grid-template-columns: 250px 250px ;
+	grid-template-rows: 250px 250px ;
+	top: 40% ;
+	left: 25% ;
+	
+	
+}
+
+.layout2 {
+	
+	display: grid ;
+	position: absolute ;
+	margin: auto ;
+	padding: 100px ;
+	grid-template-columns: 350px 250px ;
+	grid-template-rows: 250px 250px ;
+	top: 40% ;
+	left: 0% ;
+	
+}
+
+.layout3 {
+	
+	display: grid ;
+	position: absolute ;
+	float: left ;
+	margin: auto ;
+	padding: 100px ;
+	grid-template-columns: 250px 250px 250px ;
+	grid-template-rows: 350px 350px 350px ;
+	top: 45% ;
+	left: 8% ;
+	
+}
+	
+.layout4 {
+	
+	display: grid ;
+	float: left ;
+	position: absolute ;
+	margin: auto ;
+	padding: 100px ;
+	grid-template-columns: 250px 250px 250px ;
+	grid-template-rows: 350px 350px 350px ;
+	top: 50% ;
+	left: 0% ;
+}
+
+#avatar {
+	
+	border-radius: 50% ;
+}
